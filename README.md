@@ -1,6 +1,6 @@
 # word-recommendation-application
 
-This is a repository containing the files that helped create my word recommendation application. The code for the application was written in R across a UI file and a server file. These files defined an n-gram model with backoff, which created a set of most common bigrams, trigrams and quadgrams based on our natural language corpus. These files were then pushed to a web application hosted on shinyapps.io under my account. The full list of files present in the repository includes:
+This is a repository containing the files that helped create my word recommendation application. The code for the application was written in R across a UI file and a server file. These files implement an n-gram model with backoff, drawing from a set of most common bigrams, trigrams and quadgrams obtained from my natural language corpus. These files were then pushed to a web application hosted on shinyapps.io under my account. The full list of files present in the repository includes:
 
 1. ui.R - defines the user interface for the application
 2. server.R - performs operations on the inputs gathered by the user interface and renders the word recommendation as a text output
